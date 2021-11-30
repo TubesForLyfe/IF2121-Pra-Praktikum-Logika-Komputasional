@@ -1,0 +1,91 @@
+Bagian 1
+
+a. Query: menikah(Goal, karel).
+
+Goal = ada_lovelace
+
+b. Query: kakak(abdi, Goal).
+
+Goal = richard
+
+c. Query: keponakan(sherlock_h,Goal), anaksulung(Goal).
+
+Goal = nikola_tesla
+
+d. Query: saudara(Goal,_S), suami(_S,marie_curie).
+
+Goal = abdi
+
+e. Query: kakak(_S,Goal), anaksulung(_S), \+ (kakak(_K,Goal), _S \= _K).
+
+Goal = alan_turing
+
+Goal = alan_turing
+
+Goal = richard
+
+Goal = masumi_sera
+
+f. Query: cucu(Goal,kinantan), anakbungsu(Goal).
+
+Goal = masumi_sera
+
+g. Query: anak(_S, Goal), anak(_B, Goal), _S \= _B, anaksulung(_S), anakbungsu(_B), \+ (kakak(_K, _B), _K \= _S).
+
+Goal = ra_kartini
+
+Goal = gabe_newell
+
+Goal = richard
+
+Goal = marie_curie
+
+h. Query: anak(_A,Goal), menikah(_A,_).
+
+Goal = karel
+
+Goal = ada_lovelace
+
+Goal = jk_rowling
+
+Goal = abdi
+
+Goal = ra_kartini
+
+Goal = gabe_newell
+
+Goal = ra_kartini
+
+Goal = gabe_newell
+
+Goal = kinantan
+
+Goal = elsa_pataky
+
+i. Query: anak(_A,Goal), pria(Goal), \+ saudara(_A,_); pria(Goal), \+ anak(_A,Goal).
+
+Goal = abdi
+
+Goal = kinantan
+
+Goal = nikola_tesla
+
+Goal = alan_turing
+
+Goal = sherlock_h
+
+j. Query: anak(_A,Goal), wanita(Goal), anaksulung(_A), usia(_A,_UA), usia(Goal,_UGoal), (_UGoal - _UA) < 25.
+
+Goal = ada_lovelace
+
+Goal = ada_lovelace
+
+Goal = jk_rowling
+
+k. Query: keturunan(Goal,gabe_newell), usia(Goal,_U), _U >= 25.
+
+Goal = abdi
+
+Goal = richard
+
+Goal = sherlock_h
